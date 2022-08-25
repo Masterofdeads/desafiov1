@@ -3,98 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
-    background: white;
-    height: 80px;
+body{
+
 }
-.navLogo{
-    height: 80px;
-    width: 80px;
-    padding: 0 ;
-}
-.navLogo img{
-    height: 80px;
-    width: 80px;
-}
-.navConteiner{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-}
-.navInput:checked + .navMenu{
-    background: white;
-}
-.navLabel, .navInput{
-    display: none;
-}
-.navMenu{
-    width: 100%;
-    display: grid;
-    grid-auto-flow: column;
-    gap: 25px;
-    font-size: 30px;
-    padding-left: 10px;
-}
-.navItem{
+.nav-link{
+    /* background: white; */
+    /* height: 80px; */
     color: red;
-    text-decoration: none;
+    text-align: center;
 }
-.navItem:hover{
+.nav-link:hover{
     color: rgb(113, 255, 208);
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.nav-item{
+    
 }
 .wp{
     display: flex;
     align-self: flex-end;
     position: fixed;
-    height: 8vh;
-    width: 8vw;
+    height: 30px;
+    width: 30px;
     margin: 0;
     padding: 0;
-    bottom: 7vh;
-    right: 3vw;
-}
-footer{
-    background-color: white;
-    width: 100%;
-    height: 45px;
-    text-align: center;
-    font-size: 16px;
-    display: flex;
+    bottom: 35px;
+    right: 35px;
     z-index: 2;
 }
-footer div{
+footer{
+    background-color: grey;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    font-size: 16px;
+    /* display: flex; */
+    z-index: 1;
+    /* position: sticky; */
+    margin: 0;
+    padding: 0;
+}
+.copyright{
+    /* padding-left: 20px; */
+}
+/* footer div{
     display: flex;
     width: 100%;
     padding: 0 0 10px 0;
     flex-wrap: wrap;
-}
+} */
 .soc{
     display: flex;
     text-align: center;
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
 }
 .soc a{
-    display: flex;
+    /* display: flex; */
     color:#34B7F1;
-    justify-self: center;
+    /* justify-self: center; */
     font-size: 45px;
     padding-left: 10px;
 }
 .footerMenu{
     display: grid;
-    justify-content: left;
-    margin: 10px;
+    justify-content: center;
+    /* margin: 10px; */
 }
 .footerMenu a{
-    color: #34B7F1;
+    color: red;
     text-align: right;
+}
+.footerMenu a:hover{
+    color: #34B7F1;
+}
+                                    /* La Casa */
+.mainLacasa{
+    height: 80vh;
+}
+.carousel-item img{
+    height: fit-content ;
+    width: 100%;
 }
                                     /* Index */
 .mainIndex{
-    height: 82vh;
+    height: 80vh;
     width: 100%;
     background: url(./images/atardecer.jpeg);
     background-size: cover;
@@ -111,23 +105,23 @@ footer div{
 }
                                     /* Ubicacion  */
 .mainUbicacion{
-    grid-area: mainubi;
+    /* grid-area: mainubi;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
     background-image: url(./images/casa2.jpeg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .indicaciones{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: fit-content;
-    flex-direction: column;
-    margin: 0 90px 40px 90px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 100vw; */
+    /* height: fit-content; */
+    /* flex-direction: column; */
+    /* margin: 0 90px 40px 90px; */
     background: #4A89F3;
 }
 .indicaciones h2{
@@ -135,32 +129,33 @@ footer div{
 }
 .indicaciones p{
     font-size: 20px;
-    
 }
-.mainUbicacion iframe{
-    display: flex;
-    align-items: center;
-    margin: 20px 20px 10px 30px;
-    height: 50vh;
-    width: 100vw;
+.ubicacion iframe{
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin: 20px 30px 10px 30px; */
+    /* height: 30vh; */
+    /* width: 100% */
+    margin: 0;
+    padding: 0;
 }
                         /* Contacto */
 .mainContacto{
     background-image: url(./images/parque.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 82vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.form{
+/* .form{
     display: flex;
     justify-items: center;
     align-content: center;
-}
-.formConteiner{
+} */
+/* .formConteiner{
     background-color: #4A89F3;
     width: fit-content;
     height: fit-content;
@@ -171,12 +166,12 @@ footer div{
     display: grid;
     border: 5px solid black;
     
-}
-.formContent{
-}
+} */
+/* .formContent{
+} */
 
                         /* Mobile */
-@media screen and (max-width: 739px){
+/* @media screen and (max-width: 739px){
     .navLabel{
         display: block;
         margin-right: 20px;
@@ -213,4 +208,4 @@ footer div{
         color: rgb(113, 255, 208);
     }
 
-}
+} */

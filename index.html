@@ -17,9 +17,39 @@
 
 <body>
     <header>
-        <nav class="nav">
+        <nav class="navbar navbar-expand-md bg-light row">
+            <!-- Brand -->
+            <a class="navbar-brand col-1" href="./index.html">
+                <img src="./images/Home.png" alt="Logo" style="width:40px;">
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/lacasa.html">La Casa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/laisla.html">Isla</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/losnonos.html">Los Nonos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/ubicacion.html">Ubicacion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <nav class="nav">
             <div class="navConteiner">
-                <a class="navLogo animate__animated animate__fadeInRightBig" href="#"><img src="./images/Home.png" alt=""></a>
+                <a class="navLogo animate__animated animate__fadeInRightBig" href="#"><img src="./images/Home.png"
+                        alt=""></a>
                 <label for="menu" class="navLabel"><i class="fa-solid fa-bars"></i></label>
                 <input type="checkbox" id="menu" class="navInput">
                 <div class="navMenu">
@@ -30,7 +60,7 @@
                     <a href="./pages/contacto.html" class="navItem">Contacto</a>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </header>
     <main class="mainIndex">
         <div class="mainBg"><iframe src="https://www.youtube.com/embed/M5L9VehlXYg" title="YouTube video player"
@@ -39,19 +69,20 @@
                 allowfullscreen></iframe>
         </div>
     </main>
-    <footer class="footer">
-        <a class="wp    animate__animated animate__flipInX" href="https://wa.me/5491154931955"><img src="./images/whatsapp.png" alt="whatsapp"></a>
-        <div>©Copyright Todos los Derechos Reservados</div>
-        <div class="soc">
+    <footer class="footer row">
+        <a class="wp    animate__animated animate__flipInX" href="https://wa.me/5491154931955"><img
+                src="./images/whatsapp.png" alt="whatsapp"></a>
+        <div class="copyright col-4">©Copyright Todos los Derechos Reservados</div>
+        <div class="soc col-4">
             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <div class="footerMenu">
-            <a href="../index.html" class="navItem">Home</a>
-            <a href="./lacasa.html" class="navItem">La Casa</a>
-            <a href="./laisla.html" class="navItem">La Isla</a>
-            <a href="#" class="navItem">Ubicacion</a>
-            <a href="./contacto.html" class="navItem">Contacto</a>
+        <div class="footerMenu col-4">
+            <a href="./index.html" class="navItem">Home</a>
+            <a href="./pages/lacasa.html" class="navItem">La Casa</a>
+            <a href="./pages/laisla.html" class="navItem">Isla</a>
+            <a href="./pages/losnonos.html" class="navItem">Los Nonos</a>
+            <a href="./pages/ubicacion.html" class="navItem">Ubicacion</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

@@ -35,25 +35,27 @@ body{
 }
 footer{
     background-color: grey;
-    width: 100%;
+    /* width: 100%; */
     height: max-content;
     text-align: center;
     font-size: 16px;
     /* display: flex; */
     z-index: 1;
-    /* position: sticky; */
+    position: sticky;
     margin: 0;
     padding: 0;
 }
 .copyright{
     /* padding-left: 20px; */
 }
-/* footer div{
+footer div{
     display: flex;
     width: 100%;
     padding: 0 0 10px 0;
     flex-wrap: wrap;
-} */
+    margin: 0;
+    padding: 0;
+}
 .soc{
     display: flex;
     text-align: center;
@@ -80,7 +82,7 @@ footer{
 }
                                     /* La Casa */
 .mainLacasa{
-    height: 80vh;
+    height: 600px;
 }
 .carousel-item img{
     height: fit-content ;

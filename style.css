@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-
-}
 .nav-link{
     /* background: white; */
     /* height: 80px; */
@@ -17,9 +14,6 @@ body{
 }
 .navbar-toggler-icon{
     color: black;
-}
-.nav-item{
-    
 }
 .wp{
     display: flex;
@@ -34,7 +28,7 @@ body{
     z-index: 2;
 }
 footer{
-    background-color: grey;
+    background-color: white;
     /* width: 100%; */
     height: max-content;
     text-align: center;
@@ -45,11 +39,8 @@ footer{
     margin: 0;
     padding: 0;
 }
-.copyright{
-    /* padding-left: 20px; */
-}
 footer div{
-    display: flex;
+    /* display: flex; */
     width: 100%;
     padding: 0 0 10px 0;
     flex-wrap: wrap;
@@ -81,11 +72,11 @@ footer div{
     color: #34B7F1;
 }
                                     /* La Casa */
-.mainLacasa{
+/* .mainLacasa{
     height: 600px;
-}
+} */
 .carousel-item img{
-    height: fit-content ;
+    height: 600px ;
     width: 100%;
 }
                                     /* Index */

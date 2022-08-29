@@ -158,12 +158,12 @@ footer div{
     justify-content: center;
     align-items: center;
 }
-/* .form{
+.form{
     display: flex;
     justify-items: center;
     align-content: center;
-} */
-/* .formConteiner{
+}
+.formConteiner{
     background-color: #4A89F3;
     width: fit-content;
     height: fit-content;
@@ -175,8 +175,8 @@ footer div{
     border: 5px solid black;
     
 } */
-/* .formContent{
-} */
+.formContent{
+}
 
                         /* Mobile */
 /* @media screen and (max-width: 739px){

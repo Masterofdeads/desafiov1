@@ -82,15 +82,23 @@ footer div{
     color: #34B7F1;
 }
                                     /* La Casa */
-/* .mainLacasa{
-    height: 600px;
-} */
+.mainLacasa{
+    background-image: url(./images/atardecer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#demo{
+    height: ;
+    padding: 2vw 5vw ;
+    /* width: 80%; */
+}
 .carousel-item{
     /* width: 100%; */
-    height: 80vh;
+    height: 40vw;
+    /* max-height: 80vh; */
 }
 .carousel-item img{
-    height: 80vh ;
+    height: 100%;
     width: 100%;
     object-fit: center;
 }

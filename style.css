@@ -1,227 +1,227 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .navbar-brand{
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 .navbar-brand img{
-    height: max-content;
-    width: max-content;
+  height: max-content;
+  width: max-content;
 }
 .nav-link{
-    /* background: white; */
-    /* height: 80px; */
-    color: red;
-    text-align: center;
-    font-size: 30px;
-    margin-right: 20px;
+  /* background: white; */
+  /* height: 80px; */
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin-right: 20px;
 }
 .nav-link:hover{
-    color: rgb(113, 255, 208);
+  color: rgb(113, 255, 208);
 }
 .navbar-toggler-icon{
-    color: black;
+  color: black;
 }
 .wp{
-    display: flex;
-    align-self: flex-end;
-    position: fixed;
-    height: 45px;
-    width: 45px;
-    margin: 0;
-    padding: 0;
-    bottom: 35px;
-    right: 35px;
-    z-index: 2;
+  display: flex;
+  align-self: flex-end;
+  position: fixed;
+  height: 45px;
+  width: 45px;
+  margin: 0;
+  padding: 0;
+  bottom: 35px;
+  right: 35px;
+  z-index: 2;
 }
 footer{
-    background-color: white;
-    /* width: 100%; */
-    height: max-content;
-    text-align: center;
-    font-size: 16px;
-    /* display: flex; */
-    z-index: 1;
-    position: sticky;
-    margin: 0;
-    padding: 0;
+  background-color: white;
+  /* width: 100%; */
+  height: max-content;
+  text-align: center;
+  font-size: 16px;
+  /* display: flex; */
+  z-index: 1;
+  position: sticky;
+  margin: 0;
+  padding: 0;
 }
 footer div{
-    /* display: flex; */
-    width: 100%;
-    padding: 0 0 10px 0;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+  /* display: flex; */
+  width: 100%;
+  padding: 0 0 10px 0;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 .soc{
-    display: flex;
-    text-align: center;
-    margin-bottom: 40px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .soc a{
-    /* display: flex; */
-    color:#34B7F1;
-    /* justify-self: center; */
-    font-size: 50px;
-    padding-left: 10px;
+  /* display: flex; */
+  color:#34B7F1;
+  /* justify-self: center; */
+  font-size: 50px;
+  padding-left: 10px;
 }
 .footerMenu{
-    display: grid;
-    justify-content: center;
-    /* margin: 10px; */
+  display: grid;
+  justify-content: center;
+  /* margin: 10px; */
 }
 .footerMenu a{
-    color: red;
-    text-align: right;
+  color: red;
+  text-align: right;
 }
 .footerMenu a:hover{
-    color: #34B7F1;
+  color: #34B7F1;
 }
-                                    /* La Casa */
+                                  /* La Casa */
 .mainLacasa{
-    background-image: url(./images/atardecer.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(./images/atardecer.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #demo{
-    height: ;
-    padding: 2vw 5vw ;
-    /* width: 80%; */
+  /* height: ; */
+  padding: 2vw 5vw ;
+  /* width: 80%; */
 }
 .carousel-item{
-    /* width: 100%; */
-    height: 40vw;
-    /* max-height: 80vh; */
+  /* width: 100%; */
+  height: 40vw;
+  /* max-height: 80vh; */
 }
 .carousel-item img{
-    height: 100%;
-    width: 100%;
-    object-fit: center;
+  height: 100%;
+  width: 100%;
+  object-fit: center;
 }
-                                    /* Index */
+                                  /* Index */
 .mainIndex{
-    height: 80vh;
-    width: 100%;
-    background: url(./images/atardecer.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  background: url(./images/atardecer.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .mainBg{
-    display: flex;
-    justify-content: center;
-    padding: 30px 0 0 0;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
 }
 .mainBg iframe{
-    width: 70vw;
-    height: 70vh;
+  width: 70vw;
+  height: 70vh;
 }
-                                    /* Ubicacion  */
+                                  /* Ubicacion  */
 .mainUbicacion{
-    /* grid-area: mainubi;
-    display: flex;
-    justify-content: space-between; */
-    background-image: url(./images/casa2.jpeg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* flex-wrap: wrap; */
+  /* grid-area: mainubi;
+  display: flex;
+  justify-content: space-between; */
+  background-image: url(./images/casa2.jpeg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* flex-wrap: wrap; */
 }
 .indicaciones{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* width: 100vw; */
-    /* height: fit-content; */
-    /* flex-direction: column; */
-    /* margin: 0 90px 40px 90px; */
-    background: #4A89F3;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 100vw; */
+  /* height: fit-content; */
+  /* flex-direction: column; */
+  /* margin: 0 90px 40px 90px; */
+  background: #4A89F3;
 }
 .indicaciones h2{
-    font-size: 36px;
+  font-size: 36px;
 }
 .indicaciones p{
-    font-size: 20px;
+  font-size: 20px;
 }
 .ubicacion iframe{
-    /* display: flex; */
-    /* align-items: center; */
-    /* margin: 20px 30px 10px 30px; */
-    height: 700px;
-    /* width: 100% */
-    margin: 0;
-    padding: 0;
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin: 20px 30px 10px 30px; */
+  height: 700px;
+  /* width: 100% */
+  margin: 0;
+  padding: 0;
 }
-                        /* Contacto */
+                      /* Contacto */
 .mainContacto{
-    background-image: url(./images/parque.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url(./images/parque.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form{
-    display: flex;
-    justify-items: center;
-    align-content: center;
+  display: flex;
+  justify-items: center;
+  align-content: center;
 }
 .formConteiner{
-    background-color: #4A89F3;
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: right;
-    display: grid;
-    border: 5px solid black;
-    
+  background-color: #4A89F3;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  display: grid;
+  border: 5px solid black;
+  
 } */
 .formContent{
 }
 
-                        /* Mobile */
+                      /* Mobile */
 /* @media screen and (max-width: 739px){
-    .navLabel{
-        display: block;
-        margin-right: 20px;
-        font-size: 25px;
-        color: #aaa9ad	;
-    }
-    .navMenu{
-        border: 5px solid rgb(103, 185, 226);
-        position: fixed;
-        top: 80px;
-        bottom: 0;
-        background: white;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: clip-path 1s ease-in-out;
-    }
-    .navInput:checked + .navMenu{
-        clip-path: circle(100% at center);
-        
-    }
-    .mainIndex{
-        height: 82vh;
-        width: 100%;
-        background: url(./images/atardecer\ \(Pequeño\).jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .navItem:hover{
-        color: rgb(113, 255, 208);
-    }
+  .navLabel{
+      display: block;
+      margin-right: 20px;
+      font-size: 25px;
+      color: #aaa9ad	;
+  }
+  .navMenu{
+      border: 5px solid rgb(103, 185, 226);
+      position: fixed;
+      top: 80px;
+      bottom: 0;
+      background: white;
+      width: 100%;
+      left: 0;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      clip-path: circle(0 at center);
+      transition: clip-path 1s ease-in-out;
+  }
+  .navInput:checked + .navMenu{
+      clip-path: circle(100% at center);
+      
+  }
+  .mainIndex{
+      height: 82vh;
+      width: 100%;
+      background: url(./images/atardecer\ \(Pequeño\).jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .navItem:hover{
+      color: rgb(113, 255, 208);
+  }
 
 } */
